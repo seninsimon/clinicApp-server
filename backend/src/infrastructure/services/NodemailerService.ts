@@ -7,7 +7,7 @@ export class NodeMailerService implements IEmailService {
       service: 'Gmail',
       auth: {
         user: process.env.EMAIL || "seninsimon002@gmail.com",
-        pass: process.env.PASSWORD || "ayghazgxuqybncco",
+        pass: process.env.APP_PASSWORD || "ayghazgxuqybncco",
       },
     });
 

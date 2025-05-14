@@ -1,0 +1,40 @@
+# === Node Modules ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Build Output ===
+dist/
+build/
+out/
+
+# === Logs ===
+logs/
+*.log
+*.log.*
+
+# === Environment Files ===
+.env
+.env.* # like .env.development, .env.local etc.
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === TypeScript ===
+*.tsbuildinfo
+
+# === IDE/Editor Config ===
+.vscode/
+.idea/
+
+# === Coverage Reports ===
+coverage/
+nyc_output/
+
+# === MongoDB local data ===
+*.mongodb
+
+# === Misc ===
+*.swp
