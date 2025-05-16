@@ -27,7 +27,7 @@ const doctorSchema = new Schema<DoctorDocument>({
   experience: { type: Number, required: true },
   fee: { type: Number, required: true },
   status: {
-    type: String,
+    type: String, 
     enum: ["Approved", "Rejected", "Pending"],
     default: "Pending",
   },

@@ -1,6 +1,6 @@
 // src/application/useCases/VerifyOtp.ts
 
-import { IUserRepository } from "../../domain/interfaces/IUserRepository";
+import { IUserRepository } from "../../../domain/interfaces/IUserRepository";
 
 export class VerifyOtp {
   constructor(private userRepo: IUserRepository) {}

@@ -2,16 +2,18 @@ export type Role = 'admin' | 'patient' | 'doctor';
 
 export class User {
   constructor(
-    
     public readonly name: string,
     public readonly email: string,
     public password: string,
     public role: Role = 'patient',
     public isBlocked: boolean = false,
-    public otp? : string,
-    public otpExpiry? : Date,
-    public isVerified? : Boolean
+    public otp?: string,
+    public otpExpiry?: Date,
+    public isVerified?: Boolean,
+    public readonly _id?: string // move to last and make optional
   ) {}
+
+
 
    setOtp(otp: string, expiryMinutes: number = 10) {
     this.otp = otp;
